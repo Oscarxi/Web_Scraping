@@ -21,8 +21,8 @@ login = driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button')
 
 username.clear()
 password.clear()
-username.send_keys("your account")
-password.send_keys("your password")
+username.send_keys("sisyphoscar")
+password.send_keys("tsuyi711")
 login.click()
 
 search = WebDriverWait(driver, 10).until(
